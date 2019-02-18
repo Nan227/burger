@@ -1,4 +1,4 @@
-# Burger
+# Eat-Da-Burger!
 
 * Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
 
@@ -8,8 +8,11 @@
 
 * App will store every burger in a database, whether devoured or not.
 
+
+![](./public/assest/img/gifBurger.gif)
+
 # Screenshot
-![](./public/assest/img/screenshot)
+![](./public/assest/img/screenshot.png)
 
 
 # Heroku
