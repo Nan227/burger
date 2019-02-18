@@ -12,7 +12,7 @@
 ![gifburger](https://user-images.githubusercontent.com/45270593/52929866-208d3b80-3314-11e9-9846-f943e03020ce.gif)
 
 # Screenshot
-![](./public/assest/img/screenshot.png)
+![](public/assets/img/screenshot.png)
 
 
 # Heroku
