@@ -16,8 +16,7 @@
     <ul class="list-group">
     {{#each burgerList}}
       {{#unless completed}}
-        {{burger}} 
-          {{> burgers/burger status="Not Devour it!"}}
+        {{> burgers/burger status="Not Devour it!"}}
       {{/unless}}
     {{/each}}
     </ul>
@@ -27,8 +26,7 @@
     <ul class="list-group">
       {{#each burgerList}}
         {{#if completed}}
-          {{burger}} 
-            {{> burgers/burger status="Devoured it!"}}
+          {{> burgers/burger status="Devoured it!"}}
         {{/if}}
       {{/each}}
     </ul>
