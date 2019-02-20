@@ -18,7 +18,7 @@
     {{#each burgerList}}
       {{#unless completed}}
        {{burger}}
-        {{!-- > burgers/burger status=  "Not Devour it! --}}
+        {{ > burgers/burger status=  "Not Devour it! }}
       {{/unless}}
     {{/each}}
     </ul>
@@ -26,10 +26,10 @@
   <div class="col-4">
     {{> section-title title="Devoured it!"}}
     <ul class="list-group">
-      {{burger}}
+      
       {{#each burgerList}}
         {{#if completed}}
-          {{> burgers/burger status= "Devoured it!"}}  
+         {{burger}} {{> burgers/burger status= "Devoured it!"}}  
         {{/if}}
       {{/each}}
     </ul>
