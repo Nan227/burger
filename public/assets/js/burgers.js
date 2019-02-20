@@ -33,7 +33,8 @@ $(document).ready(function(){
     const burgerItem = {
       burger: $("#burger-input").val().trim()
     }
-
+    console.log(burgerItem);
+    
     $.ajax({
       url: "/api/burgers",
       method: "POST",
