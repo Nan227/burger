@@ -14,10 +14,11 @@
   <div class="col-4">
     {{> section-title title="  Order"}}
     <ul class="list-group">
-      {{burger}} 
+      
     {{#each burgerList}}
       {{#unless completed}}
-        {{> burgers/burger status=  "Not Devour it!"}}
+       {{burger}}
+        {{!-- {{> burgers/burger status=  "Not Devour it!"}} --}}
       {{/unless}}
     {{/each}}
     </ul>
