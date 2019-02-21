@@ -16,7 +16,9 @@
     <ul class="list-group">
     {{#each burgerList}}
       {{#unless completed}}
-        {{> burgers/burger status="Not Devour it!"}}
+      
+        {{> burgers/burger status= "Not Devour it!"}}
+         
       {{/unless}}
     {{/each}}
     </ul>
