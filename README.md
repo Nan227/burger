@@ -15,5 +15,5 @@
 ![](./public/img/screenshot.png)
 
 
-# Heroku
+# Heroku page
 https://burgerrrr.herokuapp.com/
